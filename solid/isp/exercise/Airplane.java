@@ -1,6 +1,6 @@
 package solid.isp.exercise;
 
-public class Airplane implements MotorizedVehicle, FlyingVehicle, CargoVehicle {
+public class Airplane implements FlyingVehicle, CargoVehicle {
     @Override
     public void startEngine() {
         System.out.println("Airplane engine started.");
