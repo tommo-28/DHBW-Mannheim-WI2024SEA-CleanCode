@@ -2,11 +2,11 @@ package solid.dip.exercise;
 
 public class Robot {
 	
-	private BasicLegs legs;
-	private BasicHands hands;
-	private BasicPowerSource powerSource;
+	private Legs legs;
+	private Hands hands;
+	private PowerSource powerSource;
 	
-	public Robot(BasicLegs legs, BasicHands hands, BasicPowerSource powerSource) {
+	public Robot(Legs legs, Hands hands, PowerSource powerSource) {
 		super();
 		this.legs = legs;
 		this.hands = hands;
